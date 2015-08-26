@@ -80,7 +80,7 @@ public class EnseignantController {
             this.enseignantService.updateEnseignant(e);
         }
          
-        return "redirect:/enseignants";
+        return "redirect:/home";
          
     }
      

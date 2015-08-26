@@ -70,7 +70,7 @@ public class ParentController {
         this.parentService.addParent(e);
         this.userService.addUser(u);
         this.userRoleService.addUserRole(r);
-        return "redirect:/parent";
+        return "redirect:/home";
     }
     
     
